@@ -56,3 +56,5 @@ user.statics.authenticateWithToken = async function (token) {
     throw new Error(err.message);
   }
 }
+
+module.exports = mongoose.model0('user', user);
